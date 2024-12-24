@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <fieldset style="background-color: antiquewhite;">
+            <legend>Personal information</legend>
+        <label for="name">first Name:</label>
+        <input type="text"name="name" placeholder="enter your  first name">
+        <br><br>
+        <label for="name">last name:</label>
+        <input type="text"name="name" placeholder="enter your  last name">
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="enter  your email">
+        <br><br>
+        <label>
+        <input type="submit" value=" submit" style="width: 200px; border-radius: 5px;background-color: aquamarine;">
+        </label>
+        </fieldset>
+        <fieldset style="background-color: aquamarine;">
+            <legend> Education section</legend>
+            <label for="degree">Degree:</label>
+            <input type="text"name="degree" placeholder="enter your  degree">
+            <br><br>
+            <label for="institute">institute:</label>
+            <input type="text"name="institute" placeholder="enter your  institute name">
+            <br><br>
+        </fieldset>
+        <textarea name="" id="" placeholder="enter your feedback"></textarea>
+        <button> click here to submit</button>
+        <br><br>
+        <fieldset>
+            <legend>drop down menu</legend>
+            <!...uisng select and option element...>
+            <select name="country">
+                <option  value="us">US</option>
+                <option value="uk">UK</option>
+                <option value="india">india</option>
+                <option value="canada">CANADA</option>
+            </select>
+    </fieldset>
+    <fieldset>
+        <legend> categories of food</legend>
+        <select name="vegetables  categories">
+            <optgroup label="veg">
+                <option value="milk">milk</option>
+                <option value="fruits">fruits</option>
+                <option value="vegetables">vegetables</option>
+            </optgroup>
+            <optgroup label="nonveg">
+                <option value="chicken">chicken</option>
+                <option value="egg">Egg</option>
+                <option value="mutton">mutton</option>
+
+            </optgroup>
+        </select>
+    </fieldset>
+    <br><br>
+    <input type=" text" list="browser" placeholder="enter your fav browser namee"/>
+    <datalist id="ice-cream-flavour">
+        <option value=" chocolate">chocolate</option>
+        <option value="coconut">coconut</option>
+        <option value="chocobar">chocobar</option>
+    </datalist>
+    </form>
+</body>
+</html>
